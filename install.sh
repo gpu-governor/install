@@ -13,6 +13,13 @@ sudo apt install libglfw3-dev # GLFW
 sudo apt install clang
 sudo apt install build-essential
 
+# vulkan
+sudo apt install build-essential
+sudo apt install libvulkan1
+sudo apt install vulkan-utils
+sudo apt install mesa-vulkan-drivers
+sudo apt install vulkan-validationlayers
+
 # Verify installation
 clear
 echo "Verifying installation"
